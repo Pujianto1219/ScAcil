@@ -23,7 +23,7 @@ apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
 <img src="https://img.shields.io/badge/Install_Semua_Layanan_Service%20-green">
 
   ```html
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/dendikusnandi/iLoveU/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/Pujianto1219/ScAcil/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 ```
 
 <img src="https://img.shields.io/badge/DONE%20_/_%20SELESAI-green">
